@@ -11,7 +11,7 @@ import Combine
 class MovieDataManager {
 	static let shared = MovieDataManager()
 	
-	private init() {}
+	internal init() {}
 	
 	private var persistentContainer: NSPersistentContainer = {
 		let container = NSPersistentContainer(name: "BANQUEMISR")

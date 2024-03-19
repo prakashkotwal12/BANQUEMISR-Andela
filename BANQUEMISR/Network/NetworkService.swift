@@ -13,7 +13,7 @@ class NetworkService {
 	private var networkMonitor = NetworkMonitor.shared
 	private let baseURL = "https://api.themoviedb.org/3"
 	private var cancellables: Set<AnyCancellable> = [] // Declare cancellables
-
+	
 	public var connectionState : ConnectionState = .offline
 	
 	private func observeNetworkChanges() {
@@ -109,6 +109,6 @@ class NetworkService {
 		} else {
 			return error
 		}
-	}
+	}	
 }
 
