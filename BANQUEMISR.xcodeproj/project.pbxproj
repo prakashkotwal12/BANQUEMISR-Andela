@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1784B7A32BA9396C00EE2A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7A22BA9396C00EE2A18 /* AppDelegate.swift */; };
+		1784B7A52BA9396C00EE2A18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7A42BA9396C00EE2A18 /* SceneDelegate.swift */; };
+		1784B7A72BA9396C00EE2A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7A62BA9396C00EE2A18 /* ViewController.swift */; };
+		1784B7AA2BA9396C00EE2A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1784B7A82BA9396C00EE2A18 /* Main.storyboard */; };
+		1784B7AD2BA9396C00EE2A18 /* BANQUEMISR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7AB2BA9396C00EE2A18 /* BANQUEMISR.xcdatamodeld */; };
+		1784B7AF2BA9396D00EE2A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1784B7AE2BA9396D00EE2A18 /* Assets.xcassets */; };
+		1784B7B22BA9396D00EE2A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1784B7B02BA9396D00EE2A18 /* LaunchScreen.storyboard */; };
+		1784B7BD2BA9396E00EE2A18 /* BANQUEMISRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7BC2BA9396E00EE2A18 /* BANQUEMISRTests.swift */; };
+		1784B7C72BA9396E00EE2A18 /* BANQUEMISRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7C62BA9396E00EE2A18 /* BANQUEMISRUITests.swift */; };
+		1784B7C92BA9396E00EE2A18 /* BANQUEMISRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7C82BA9396E00EE2A18 /* BANQUEMISRUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1784B7B92BA9396E00EE2A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1784B7972BA9396C00EE2A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1784B79E2BA9396C00EE2A18;
+			remoteInfo = BANQUEMISR;
+		};
+		1784B7C32BA9396E00EE2A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1784B7972BA9396C00EE2A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1784B79E2BA9396C00EE2A18;
+			remoteInfo = BANQUEMISR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1784B79F2BA9396C00EE2A18 /* BANQUEMISR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BANQUEMISR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1784B7A22BA9396C00EE2A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1784B7A42BA9396C00EE2A18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1784B7A62BA9396C00EE2A18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1784B7A92BA9396C00EE2A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1784B7AC2BA9396C00EE2A18 /* BANQUEMISR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BANQUEMISR.xcdatamodel; sourceTree = "<group>"; };
+		1784B7AE2BA9396D00EE2A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1784B7B12BA9396D00EE2A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1784B7B32BA9396D00EE2A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1784B7B82BA9396E00EE2A18 /* BANQUEMISRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BANQUEMISRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1784B7BC2BA9396E00EE2A18 /* BANQUEMISRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BANQUEMISRTests.swift; sourceTree = "<group>"; };
+		1784B7C22BA9396E00EE2A18 /* BANQUEMISRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BANQUEMISRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1784B7C62BA9396E00EE2A18 /* BANQUEMISRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BANQUEMISRUITests.swift; sourceTree = "<group>"; };
+		1784B7C82BA9396E00EE2A18 /* BANQUEMISRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BANQUEMISRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1784B79C2BA9396C00EE2A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1784B7B52BA9396E00EE2A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1784B7BF2BA9396E00EE2A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1784B7962BA9396C00EE2A18 = {
+			isa = PBXGroup;
+			children = (
+				1784B7A12BA9396C00EE2A18 /* BANQUEMISR */,
+				1784B7BB2BA9396E00EE2A18 /* BANQUEMISRTests */,
+				1784B7C52BA9396E00EE2A18 /* BANQUEMISRUITests */,
+				1784B7A02BA9396C00EE2A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1784B7A02BA9396C00EE2A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1784B79F2BA9396C00EE2A18 /* BANQUEMISR.app */,
+				1784B7B82BA9396E00EE2A18 /* BANQUEMISRTests.xctest */,
+				1784B7C22BA9396E00EE2A18 /* BANQUEMISRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1784B7A12BA9396C00EE2A18 /* BANQUEMISR */ = {
+			isa = PBXGroup;
+			children = (
+				1784B7DA2BA93A2800EE2A18 /* Models */,
+				1784B7D92BA93A2300EE2A18 /* Views */,
+				1784B7D82BA93A1300EE2A18 /* ViewModels */,
+				1784B7D72BA93A0D00EE2A18 /* Network */,
+				1784B7D62BA939F100EE2A18 /* CoreData */,
+				1784B7D52BA939E900EE2A18 /* Common */,
+				1784B7DB2BA93A4700EE2A18 /* System */,
+				1784B7AE2BA9396D00EE2A18 /* Assets.xcassets */,
+				1784B7B32BA9396D00EE2A18 /* Info.plist */,
+			);
+			path = BANQUEMISR;
+			sourceTree = "<group>";
+		};
+		1784B7BB2BA9396E00EE2A18 /* BANQUEMISRTests */ = {
+			isa = PBXGroup;
+			children = (
+				1784B7BC2BA9396E00EE2A18 /* BANQUEMISRTests.swift */,
+			);
+			path = BANQUEMISRTests;
+			sourceTree = "<group>";
+		};
+		1784B7C52BA9396E00EE2A18 /* BANQUEMISRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1784B7C62BA9396E00EE2A18 /* BANQUEMISRUITests.swift */,
+				1784B7C82BA9396E00EE2A18 /* BANQUEMISRUITestsLaunchTests.swift */,
+			);
+			path = BANQUEMISRUITests;
+			sourceTree = "<group>";
+		};
+		1784B7D52BA939E900EE2A18 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1784B7D62BA939F100EE2A18 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1784B7AB2BA9396C00EE2A18 /* BANQUEMISR.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1784B7D72BA93A0D00EE2A18 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1784B7D82BA93A1300EE2A18 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1784B7D92BA93A2300EE2A18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1784B7A62BA9396C00EE2A18 /* ViewController.swift */,
+				1784B7A82BA9396C00EE2A18 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1784B7DA2BA93A2800EE2A18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1784B7DB2BA93A4700EE2A18 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				1784B7A22BA9396C00EE2A18 /* AppDelegate.swift */,
+				1784B7A42BA9396C00EE2A18 /* SceneDelegate.swift */,
+				1784B7B02BA9396D00EE2A18 /* LaunchScreen.storyboard */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1784B79E2BA9396C00EE2A18 /* BANQUEMISR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1784B7CC2BA9396E00EE2A18 /* Build configuration list for PBXNativeTarget "BANQUEMISR" */;
+			buildPhases = (
+				1784B79B2BA9396C00EE2A18 /* Sources */,
+				1784B79C2BA9396C00EE2A18 /* Frameworks */,
+				1784B79D2BA9396C00EE2A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BANQUEMISR;
+			productName = BANQUEMISR;
+			productReference = 1784B79F2BA9396C00EE2A18 /* BANQUEMISR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1784B7B72BA9396E00EE2A18 /* BANQUEMISRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1784B7CF2BA9396E00EE2A18 /* Build configuration list for PBXNativeTarget "BANQUEMISRTests" */;
+			buildPhases = (
+				1784B7B42BA9396E00EE2A18 /* Sources */,
+				1784B7B52BA9396E00EE2A18 /* Frameworks */,
+				1784B7B62BA9396E00EE2A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1784B7BA2BA9396E00EE2A18 /* PBXTargetDependency */,
+			);
+			name = BANQUEMISRTests;
+			productName = BANQUEMISRTests;
+			productReference = 1784B7B82BA9396E00EE2A18 /* BANQUEMISRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1784B7C12BA9396E00EE2A18 /* BANQUEMISRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1784B7D22BA9396E00EE2A18 /* Build configuration list for PBXNativeTarget "BANQUEMISRUITests" */;
+			buildPhases = (
+				1784B7BE2BA9396E00EE2A18 /* Sources */,
+				1784B7BF2BA9396E00EE2A18 /* Frameworks */,
+				1784B7C02BA9396E00EE2A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1784B7C42BA9396E00EE2A18 /* PBXTargetDependency */,
+			);
+			name = BANQUEMISRUITests;
+			productName = BANQUEMISRUITests;
+			productReference = 1784B7C22BA9396E00EE2A18 /* BANQUEMISRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1784B7972BA9396C00EE2A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					1784B79E2BA9396C00EE2A18 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					1784B7B72BA9396E00EE2A18 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 1784B79E2BA9396C00EE2A18;
+					};
+					1784B7C12BA9396E00EE2A18 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 1784B79E2BA9396C00EE2A18;
+					};
+				};
+			};
+			buildConfigurationList = 1784B79A2BA9396C00EE2A18 /* Build configuration list for PBXProject "BANQUEMISR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1784B7962BA9396C00EE2A18;
+			productRefGroup = 1784B7A02BA9396C00EE2A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1784B79E2BA9396C00EE2A18 /* BANQUEMISR */,
+				1784B7B72BA9396E00EE2A18 /* BANQUEMISRTests */,
+				1784B7C12BA9396E00EE2A18 /* BANQUEMISRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1784B79D2BA9396C00EE2A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784B7B22BA9396D00EE2A18 /* LaunchScreen.storyboard in Resources */,
+				1784B7AF2BA9396D00EE2A18 /* Assets.xcassets in Resources */,
+				1784B7AA2BA9396C00EE2A18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1784B7B62BA9396E00EE2A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1784B7C02BA9396E00EE2A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1784B79B2BA9396C00EE2A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784B7A72BA9396C00EE2A18 /* ViewController.swift in Sources */,
+				1784B7A32BA9396C00EE2A18 /* AppDelegate.swift in Sources */,
+				1784B7AD2BA9396C00EE2A18 /* BANQUEMISR.xcdatamodeld in Sources */,
+				1784B7A52BA9396C00EE2A18 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1784B7B42BA9396E00EE2A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784B7BD2BA9396E00EE2A18 /* BANQUEMISRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1784B7BE2BA9396E00EE2A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784B7C72BA9396E00EE2A18 /* BANQUEMISRUITests.swift in Sources */,
+				1784B7C92BA9396E00EE2A18 /* BANQUEMISRUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1784B7BA2BA9396E00EE2A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1784B79E2BA9396C00EE2A18 /* BANQUEMISR */;
+			targetProxy = 1784B7B92BA9396E00EE2A18 /* PBXContainerItemProxy */;
+		};
+		1784B7C42BA9396E00EE2A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1784B79E2BA9396C00EE2A18 /* BANQUEMISR */;
+			targetProxy = 1784B7C32BA9396E00EE2A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1784B7A82BA9396C00EE2A18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1784B7A92BA9396C00EE2A18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1784B7B02BA9396D00EE2A18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1784B7B12BA9396D00EE2A18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1784B7CA2BA9396E00EE2A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1784B7CB2BA9396E00EE2A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1784B7CD2BA9396E00EE2A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BANQUEMISR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ANDELA.BANQUEMISR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1784B7CE2BA9396E00EE2A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BANQUEMISR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ANDELA.BANQUEMISR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1784B7D02BA9396E00EE2A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ANDELA.BANQUEMISRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BANQUEMISR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BANQUEMISR";
+			};
+			name = Debug;
+		};
+		1784B7D12BA9396E00EE2A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ANDELA.BANQUEMISRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BANQUEMISR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BANQUEMISR";
+			};
+			name = Release;
+		};
+		1784B7D32BA9396E00EE2A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ANDELA.BANQUEMISRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BANQUEMISR;
+			};
+			name = Debug;
+		};
+		1784B7D42BA9396E00EE2A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ANDELA.BANQUEMISRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BANQUEMISR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1784B79A2BA9396C00EE2A18 /* Build configuration list for PBXProject "BANQUEMISR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1784B7CA2BA9396E00EE2A18 /* Debug */,
+				1784B7CB2BA9396E00EE2A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1784B7CC2BA9396E00EE2A18 /* Build configuration list for PBXNativeTarget "BANQUEMISR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1784B7CD2BA9396E00EE2A18 /* Debug */,
+				1784B7CE2BA9396E00EE2A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1784B7CF2BA9396E00EE2A18 /* Build configuration list for PBXNativeTarget "BANQUEMISRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1784B7D02BA9396E00EE2A18 /* Debug */,
+				1784B7D12BA9396E00EE2A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1784B7D22BA9396E00EE2A18 /* Build configuration list for PBXNativeTarget "BANQUEMISRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1784B7D32BA9396E00EE2A18 /* Debug */,
+				1784B7D42BA9396E00EE2A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1784B7AB2BA9396C00EE2A18 /* BANQUEMISR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1784B7AC2BA9396C00EE2A18 /* BANQUEMISR.xcdatamodel */,
+			);
+			currentVersion = 1784B7AC2BA9396C00EE2A18 /* BANQUEMISR.xcdatamodel */;
+			path = BANQUEMISR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1784B7972BA9396C00EE2A18 /* Project object */;
+}
