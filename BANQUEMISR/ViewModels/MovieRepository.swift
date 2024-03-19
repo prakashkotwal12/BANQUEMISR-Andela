@@ -13,7 +13,7 @@ class MovieRepository {
 	private let networkService: MovieServiceProtocol
 	private let dataManager: MovieDataManager
 	
-	private init(networkService: MovieServiceProtocol = MovieNetworkService.shared,
+	internal init(networkService: MovieServiceProtocol = MovieNetworkService.shared,
 							 dataManager: MovieDataManager = MovieDataManager.shared) {
 		self.networkService = networkService
 		self.dataManager = dataManager

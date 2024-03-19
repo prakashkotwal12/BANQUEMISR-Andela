@@ -60,7 +60,7 @@ class KeychainService {
 		}
 	}
 	
-	private func save(_ key: String, data: Data) throws {
+	internal func save(_ key: String, data: Data) throws {
 		let query: [String: Any] = [
 			kSecClass as String: kSecClassGenericPassword,
 			kSecAttrAccount as String: key,

@@ -7,7 +7,6 @@
 enum MovieError: Error {
 	case networkError(Error)
 	case localError(Error)
-	// Add more cases as needed
 	case unknownError
 	
 	func errorMessage() -> String {
@@ -21,9 +20,12 @@ enum MovieError: Error {
 				}
 				return "Network error: \(error.localizedDescription)"
 			case .localError(let error):
+				if let coreDataError = error as? CoreDataError {
+					return coreDataError.errorMessage()
+				}
 				return "Local error: \(error.localizedDescription)"
 			case .unknownError:
 				return "Unknown error occurred."
 		}
-	}
+	}	
 }
