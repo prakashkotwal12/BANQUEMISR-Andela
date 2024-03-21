@@ -18,7 +18,7 @@ class NetworkServiceTests: XCTestCase {
 		let path = "/nonexistentendpoint" // Endpoint that does not exist
 		
 		// When
-		let publisher: AnyPublisher<String, Error> = service.getRequest(from: path, apiKeyProvider: KeychainAPIKeyProvider())
+		let publisher: AnyPublisher<String, Error> = service.getRequest(from: path)
 		
 		// Then
 		let expectation = XCTestExpectation(description: "Fetch request failed due to network error")

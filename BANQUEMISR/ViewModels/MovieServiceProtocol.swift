@@ -8,5 +8,16 @@
 import Combine
 // MARK: - Movie Service Protocol
 protocol MovieServiceProtocol {
-	func fetchMovies(_ type: MovieType) -> AnyPublisher<MovieResponse, Error>
+	func fetchMovies(_ type: MovieType, page: Int) -> AnyPublisher<MovieResponse, Error>
+	func fetchMovieDetail(movieID: Int) -> AnyPublisher<MovieDetail, Error>	
+}
+
+extension MovieServiceProtocol {
+	func fetchMovies(_ type: MovieType, page: Int) -> AnyPublisher<MovieResponse, Error> {
+		fatalError("Method not implemented")
+	}
+	
+	func fetchMovieDetail(movieID: Int) -> AnyPublisher<MovieDetail, Error> {
+		fatalError("Method not implemented")
+	}
 }

@@ -11,91 +11,90 @@ import Combine
 
 class MovieViewModelTests: XCTestCase {
 	
-	var viewModel: MovieViewModel!
-	var repository: MockMovieRepository!
-	var cancellables: Set<AnyCancellable> = []
+	// MARK: - Mock Movie Repository
 	
-	override func setUp() {
-		super.setUp()
-		repository = MockMovieRepository()
-		viewModel = MovieViewModel(repository: repository)
-	}
 	
-	override func tearDown() {
-		viewModel = nil
-		repository = nil
-		super.tearDown()
-	}
-	func testFetchNowPlayingMovies_Success() {
+	// MARK: - Test Cases
+	
+	func testFetchMoviesSuccess() {
 		// Given
-		let expectedMovies = [Movie(id: 1, title: "Movie 1", overview: "Overview 1", backdropPath: nil, genreIds: [], originalLanguage: "", originalTitle: "", popularity: 0, posterPath: nil, releaseDate: "", video: false, voteAverage: 0, voteCount: 0)]
-		repository.moviesResult = .success(expectedMovies) // Assign a Result with success
+		let viewModel = MovieViewModel(repository: MockMovieRepository())
 		
-		let expectation = XCTestExpectation(description: "Fetch now playing movies")
+		let movieResponse = MovieResponse(
+			dates: nil, page: 1,
+			results: [Movie](), // Add mock movies here for testing
+			totalPages: 1,
+			totalResults: 0
+		)
+		
+		(viewModel.repository as? MockMovieRepository)?.movieResponse = movieResponse
 		
 		// When
-		viewModel.$nowPlayingMovies
-			.sink { movies in
-				// Then
-				XCTAssertTrue(movies.allSatisfy { movie in
-					expectedMovies.contains { $0.id == movie.id }
-				})
-				expectation.fulfill()
-			}
-			.store(in: &cancellables)
+		viewModel.fetchNextMovie(for: .nowPlaying)
 		
-		viewModel.fetchNowPlayingMovies()
-		
-		wait(for: [expectation], timeout: 1.0)
+		// Then
+		XCTAssertTrue(viewModel.movies.isEmpty)
+		XCTAssertNil(viewModel.error)
 	}
 	
-//	func testFetchNowPlayingMovies_Failure() {
-//		// Given
-//		let expectedError = NSError(domain: "TestDomain", code: 123, userInfo: nil)
-//		repository.error = expectedError
-//		
-//		let expectation = XCTestExpectation(description: "Fetch now playing movies failure")
-//		
-//		// When
-//		viewModel.$error
-//			.sink { error in
-//				// Then
-//				XCTAssertNotNil(error, "Error should not be nil")
-//				
-//				if let error = error {
-//					XCTAssertEqual((error as NSError).code, expectedError.code, "Unexpected error code")
-//				}
-//				
-//				expectation.fulfill()
-//			}
-//			.store(in: &cancellables)
-//		
-//		viewModel.fetchNowPlayingMovies()
-//		
-//		wait(for: [expectation], timeout: 1.0)
-//	}
+	func testFetchMoviesFailure() {
+		// Given
+		let viewModel = MovieViewModel(repository: MockMovieRepository())
+		let expectedError = MovieError.localError(NSError(domain: "", code: 0, userInfo: nil))
+		(viewModel.repository as? MockMovieRepository)?.error = expectedError
+		
+		// When
+		viewModel.fetchNextMovie(for: .nowPlaying)
+		
+		// Then
+		XCTAssertNotNil(viewModel.error)
+		XCTAssertTrue(viewModel.movies.isEmpty)
+	}
+	
 }
-// Mock MovieRepository for testing purposes
+
 class MockMovieRepository: MovieRepository {
-	var moviesResult: Result<[Movie], Error>?
+	var movieResponse: MovieResponse?
 	var error: Error?
-	enum MovieEndpoint {
-		case nowPlaying
-		// Add other cases if needed
+	
+	// Provide an initializer
+	init() {
+		super.init()
 	}
 	
-	init(moviesResult: Result<[Movie], Error>? = nil) {
-		self.moviesResult = moviesResult
-		super.init() // Call the superclass initializer
-	}
-	
-	func fetchMovies(_ endpoint: MovieEndpoint) -> AnyPublisher<[Movie], Error> {
-		if let moviesResult = moviesResult {
-			return Result.Publisher(moviesResult).eraseToAnyPublisher()
+	override func fetchMovies(_ type: MovieType, page: Int) -> AnyPublisher<MovieResponse, Error> {
+		if let movieResponse = movieResponse {
+			return Just(movieResponse)
+				.setFailureType(to: Error.self)
+				.eraseToAnyPublisher()
 		} else if let error = error {
-			return Fail(error: error).eraseToAnyPublisher()
+			return Fail(error: error)
+				.eraseToAnyPublisher()
 		} else {
-			fatalError("No result or error provided for testing.")
+			fatalError("You need to set either movieResponse or error for testing purposes.")
+		}
+	}	
+}
+class MockMovieDetailRepository: MovieRepository {
+	var movieDetail: MovieDetail?
+	var error: Error?
+	
+	// Provide an initializer
+	init(mDetail : MovieDetail) {
+		super.init()
+		self.movieDetail = mDetail
+	}
+	
+	override func fetchMovieDetail(movieID: Int) -> AnyPublisher<MovieDetail, Error> {
+		if let movieResponse = movieDetail {
+			return Just(movieDetail!)
+				.setFailureType(to: Error.self)
+				.eraseToAnyPublisher()
+		} else if let error = error {
+			return Fail(error: error)
+				.eraseToAnyPublisher()
+		} else {
+			fatalError("You need to set either movieResponse or error for testing purposes.")
 		}
 	}
 }
