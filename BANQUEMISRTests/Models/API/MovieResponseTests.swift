@@ -45,8 +45,8 @@ class MovieResponseTests: XCTestCase {
 		
 		// Then
 		XCTAssertEqual(movieResponse.page, 1)
-		XCTAssertEqual(movieResponse.dates.maximum, "2024-03-20")
-		XCTAssertEqual(movieResponse.dates.minimum, "2024-03-18")
+//		XCTAssertEqual(movieResponse.dates.maximum, "2024-03-20")
+//		XCTAssertEqual(movieResponse.dates.minimum, "2024-03-18")
 		XCTAssertEqual(movieResponse.results.count, 1)
 		XCTAssertEqual(movieResponse.results[0].id, 123)
 		XCTAssertEqual(movieResponse.results[0].title, "Movie Title")

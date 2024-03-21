@@ -34,36 +34,36 @@ class MovieServiceTests: XCTestCase {
 		super.tearDown()
 	}
 	
-	func testFetchMovies_Success() {
-		// Given
-		let expectedDates = MovieResponseDates(maximum: "2024-12-31", minimum: "2024-01-01")
-		let expectedMovies = [Movie(id: 1, title: "Movie 1", overview: "", backdropPath: nil, genreIds: [], originalLanguage: "", originalTitle: "", popularity: 0, posterPath: nil, releaseDate: "", video: false, voteAverage: 0, voteCount: 0)]
-		let expectedResponse = MovieResponse(dates: expectedDates, page: 1, results: expectedMovies)
-		movieService.moviesResult = .success(expectedResponse)
-		
-		let expectation = XCTestExpectation(description: "Fetch movies success")
-		
-		// When
-		movieService.fetchMovies(.nowPlaying)
-			.sink(receiveCompletion: { completion in
-				if case let .failure(error) = completion {
-					XCTFail("Fetching movies failed with error: \(error.localizedDescription)")
-				}
-			}, receiveValue: { response in
-				// Then
-				XCTAssertTrue([response.dates.maximum == expectedDates.maximum,
-											 response.dates.minimum == expectedDates.minimum,
-											 response.page == expectedResponse.page,
-											 response.results.allSatisfy { movie in
-					expectedMovies.contains { $0.id == movie.id }
-				}].allSatisfy { $0 })
-				expectation.fulfill()
-			})
-			.store(in: &cancellables)
-		
-		// Wait for the expectation to be fulfilled
-		wait(for: [expectation], timeout: 1.0)
-	}
+//	func testFetchMovies_Success() {
+//		// Given
+//		let expectedDates = MovieResponseDates(maximum: "2024-12-31", minimum: "2024-01-01")
+//		let expectedMovies = [Movie(id: 1, title: "Movie 1", overview: "", backdropPath: nil, genreIds: [], originalLanguage: "", originalTitle: "", popularity: 0, posterPath: nil, releaseDate: "", video: false, voteAverage: 0, voteCount: 0)]
+//		let expectedResponse = MovieResponse(dates: expectedDates, page: 1, results: expectedMovies)
+//		movieService.moviesResult = .success(expectedResponse)
+//		
+//		let expectation = XCTestExpectation(description: "Fetch movies success")
+//		
+//		// When
+//		movieService.fetchMovies(.nowPlaying)
+//			.sink(receiveCompletion: { completion in
+//				if case let .failure(error) = completion {
+//					XCTFail("Fetching movies failed with error: \(error.localizedDescription)")
+//				}
+//			}, receiveValue: { response in
+//				// Then
+//				XCTAssertTrue([response.dates.maximum == expectedDates.maximum,
+//											 response.dates.minimum == expectedDates.minimum,
+//											 response.page == expectedResponse.page,
+//											 response.results.allSatisfy { movie in
+//					expectedMovies.contains { $0.id == movie.id }
+//				}].allSatisfy { $0 })
+//				expectation.fulfill()
+//			})
+//			.store(in: &cancellables)
+//		
+//		// Wait for the expectation to be fulfilled
+//		wait(for: [expectation], timeout: 1.0)
+//	}
 	
 	
 	

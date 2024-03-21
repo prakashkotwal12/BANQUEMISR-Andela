@@ -3,4 +3,817 @@
    uuid = "C94ECB3C-E913-4781-A4D9-63EC4042BAEE"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCEA69FE-7842-4F1F-B6E9-B7675EBF7184"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/ImageConfigurationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "430B52F0-4C58-4F97-8381-239523169465"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/ImageConfigurationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06CACBAC-4F31-47D4-B08F-77DBF40F348A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/ImageConfigurationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B83DEA34-9BC5-45B4-86B9-3B4779D75C66"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/ImageConfigurationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3890683-94D3-47DC-8EA8-0521F0A27EDD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/ImageConfigurationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "192D479F-DC20-4096-BB8F-0A02ED717837"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39CB86AD-5365-4007-889D-12F8C9A5B361"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C8325A7-66FB-4787-A161-D617D0A014C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6930EE7-E8FD-4A5B-BA07-53C3C4ACAFC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADD54A29-2042-4194-8CD0-AF7727ED4E4F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B65ADFD7-9C97-4A0F-B9CD-16B27D5EFBFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00A0A4AC-554C-4849-A913-7B7FDA680ACD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46C046C7-BEE0-4197-983F-CE4A92162676"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/ImageConfigurationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "ImageConfigurationService"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71A307CF-D9DE-43D1-B9D8-35FD82E1C9A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/ImageConfigurationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "ImageConfigurationService"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88E74C22-3D25-413D-B163-D4E8ABD7DE9D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchMovies(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88E74C22-3D25-413D-B163-D4E8ABD7DE9D - a47ef1836b4f26b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BANQUEMISR.MovieResponse) -&gt; Combine.AnyPublisher&lt;(), Swift.Error&gt; in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "88E74C22-3D25-413D-B163-D4E8ABD7DE9D - dd99f733b7d35ee7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BANQUEMISR.MovieResponse) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;BANQUEMISR.Movie&gt;, Swift.Error&gt; in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "88E74C22-3D25-413D-B163-D4E8ABD7DE9D - dd99f733b7d35d24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BANQUEMISR.MovieResponse) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;BANQUEMISR.Movie&gt;, Swift.Error&gt; in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DC5E129-73CE-4DC5-8FFD-B19057BBF5CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchMovies(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DC5E129-73CE-4DC5-8FFD-B19057BBF5CC - 7bcdb30a72eb3646"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "9DC5E129-73CE-4DC5-8FFD-B19057BBF5CC - 7bcdb30a72eb3383"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E6B3DAB-EFA8-4937-B476-3C3E46F7E73E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchMovies(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E6B3DAB-EFA8-4937-B476-3C3E46F7E73E - 6b8cd6f91d3224f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (()) -&gt; () in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "5E6B3DAB-EFA8-4937-B476-3C3E46F7E73E - 7e96c8a60de42a8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Array&lt;BANQUEMISR.Movie&gt;) -&gt; () in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "5E6B3DAB-EFA8-4937-B476-3C3E46F7E73E - 7e96c8a60de42e4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Array&lt;BANQUEMISR.Movie&gt;) -&gt; () in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EF87469-86EF-46A5-BECE-251EC266CBB7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchMovies(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0EF87469-86EF-46A5-BECE-251EC266CBB7 - a47ef1836b4f213c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BANQUEMISR.MovieResponse) -&gt; Combine.AnyPublisher&lt;(), Swift.Error&gt; in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "0EF87469-86EF-46A5-BECE-251EC266CBB7 - dd99f733b7d35963"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BANQUEMISR.MovieResponse) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;BANQUEMISR.Movie&gt;, Swift.Error&gt; in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "0EF87469-86EF-46A5-BECE-251EC266CBB7 - dd99f733b7d35da0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BANQUEMISR.MovieResponse) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;BANQUEMISR.Movie&gt;, Swift.Error&gt; in BANQUEMISR.MovieViewModel.fetchMovies(for: BANQUEMISR.MovieType) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/ViewModels/MovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F50568C7-EEE5-4FF5-A57C-38BD3ED9D31B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "updateImage(imageUrlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F50568C7-EEE5-4FF5-A57C-38BD3ED9D31B - fb476ef4af48104b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in BANQUEMISR.MovieListCell.updateImage(imageUrlString: Swift.String) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/Views/MovieListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "F50568C7-EEE5-4FF5-A57C-38BD3ED9D31B - c728a4f22ae16df8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in BANQUEMISR.MovieListCell.updateImage(imageUrlString: Swift.String) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/Views/MovieListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "F50568C7-EEE5-4FF5-A57C-38BD3ED9D31B - d6deebdd12cf80e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BANQUEMISR.MovieListCell.updateImage(imageUrlString: Swift.String) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/Views/MovieListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "448">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50A1F1ED-F25C-4FBD-8BBA-5A25E36D6484"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchImage(path:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "210961E7-7188-431C-8B11-EFC1240909CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "updateImage(imageUrlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "210961E7-7188-431C-8B11-EFC1240909CF - d6deebdd12cf8ed1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BANQUEMISR.MovieListCell.updateImage(imageUrlString: Swift.String) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/Views/MovieListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "210961E7-7188-431C-8B11-EFC1240909CF - c728a4f22ae1625d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in BANQUEMISR.MovieListCell.updateImage(imageUrlString: Swift.String) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/Views/MovieListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "210961E7-7188-431C-8B11-EFC1240909CF - d6deebdd12cf80e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BANQUEMISR.MovieListCell.updateImage(imageUrlString: Swift.String) -&gt; ()"
+                  moduleName = "BANQUEMISR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prakashkatwal/Downloads/AndelaNewTest/BanqueMISRTest/BANQUEMISR-Andela/BANQUEMISR/Views/MovieListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "448">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E11F9FC-1C37-4AB3-B7A6-2D9FB5DCA987"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "MovieDetailVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "626FE18C-D675-4FD2-B51E-B5A4A125FE7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FAE7166-72D1-42B5-96FC-01B508C55634"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "setupViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E41FAECD-8996-4227-8AFD-533B85B7C168"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchMovieDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "597809EE-36E3-41BF-A8FC-E46E34E52431"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "fetchMovieDetail(movieID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6284C1F-7BD9-4AB5-9F00-9F191FEBF024"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F92F1B25-2C55-4379-B2E6-7A5FC0AB4F6D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "getRequest(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBBC45BA-9D71-4D2B-95FA-8FDD982D7AB7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchMovieDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63B5F85A-D359-4E63-B370-3B34B21C49A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchMovieDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7AD77AF-439D-4192-AF6F-D5CDAD2A3BE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/ViewModels/MovieDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchMovieDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9CADF41D-9475-4D78-B0C6-A3285EFD1BF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "setupViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6FB1E43-37AE-45CF-AE3A-3D9AC183A4F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "setupViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9A62C9C-4298-44C9-ABD5-57083E06F420"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BANQUEMISR/Views/MovieDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "MovieDetailVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

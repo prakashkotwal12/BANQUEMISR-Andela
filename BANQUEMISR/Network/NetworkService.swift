@@ -13,7 +13,7 @@ class NetworkService {
 	private var networkMonitor = NetworkMonitor.shared
 	private let baseURL = "https://api.themoviedb.org/3"
 	private var cancellables: Set<AnyCancellable> = [] // Declare cancellables
-	
+	private let apiKeyPublisher = KeychainAPIKeyProvider().getAPIKey()
 	public var connectionState : ConnectionState = .offline
 	
 	private func observeNetworkChanges() {
@@ -26,9 +26,9 @@ class NetworkService {
 			.store(in: &cancellables) // Make sure to store the subscription to prevent it from being deallocated
 	}
 	
-	func getRequest<T: Decodable>(from path: String, apiKeyProvider: APIKeyProvider) -> AnyPublisher<T, Error> {
-		let apiKeyPublisher = apiKeyProvider.getAPIKey()
-		print("check for api key: \(apiKeyPublisher.description)")
+	func getRequest<T: Decodable>(from path: String) -> AnyPublisher<T, Error> {
+		
+		
 		return apiKeyPublisher
 			.tryMap { apiKey -> URLRequest in
 				guard let apiKey = apiKey else {
